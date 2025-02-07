@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgba(0, 247, 255, 0.493);
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -6,26 +6,37 @@ body{
     padding: 0;
 }
 
-header{
+header {
     color: red;
     margin: 20px 50px 50px 100px;
     display: flex;
 }
 
-section{
+section {
     color: pink;
 }
 
-button{
+button {
     background-color: peachpuff;
     
 }
 
-img{
-    padding: 20px;
-}
-
-button{
+button {
     margin-left: 20px;
     margin-top: 20px;
+}
+
+.button-centered {
+    display: block;
+    text-align: center;
+}
+
+.image-container {
+    display: block;
+    text-align: center;
+}
+
+.text-centered {
+    display: block;
+    text-align: center;
 }
