@@ -1,15 +1,18 @@
 body {
-    background-color: rgba(0, 247, 255, 0.493);
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(64, 224, 208, 1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 20px;
     margin: 0;
     padding: 0;
 }
 
 header {
-    color: red;
-    margin: 20px 50px 50px 100px;
+    background-color: black;
+    color: peachpuff;
     display: flex;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
 }
 
 section {
@@ -18,10 +21,7 @@ section {
 
 button {
     background-color: peachpuff;
-    
-}
-
-button {
+    border-radius: 5px;
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -36,7 +36,15 @@ button {
     text-align: center;
 }
 
+.no-take-backs{
+    font-size: 20px;
+}
+
 .text-centered {
     display: block;
     text-align: center;
+}
+
+.Yippie {
+    font-size: 50px;
 }
